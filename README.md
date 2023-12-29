@@ -9,9 +9,15 @@ This project was created based on https://github.com/DanyBit/M5Stick-Captive-Por
 ## Features
 
 - Fake WiFi access point with a custom login page.
+![Login](https://github.com/devpedromgoncalves/M5StickCPlus2-EvilPortal/assets/97984504/8a150aa0-9b32-4f32-88a3-309f562b7d01)
+  
 - User credential capture (email and password).
-- Victim count display on the M5StickC Plus 2 screen.
+  
 - Web interface for viewing captured credentials.
+![Creds](https://github.com/devpedromgoncalves/M5StickCPlus2-EvilPortal/assets/97984504/452fb68b-fd48-4872-885f-0499569ce3f6)
+
+- Victim count display on the M5StickC Plus 2 screen.
+![M5StickCPlus2](https://github.com/devpedromgoncalves/M5StickCPlus2-EvilPortal/assets/97984504/67434e37-0acb-4f7b-bfe6-02122efb1733)
 
 ## How to Use
 
@@ -20,6 +26,7 @@ This project was created based on https://github.com/DanyBit/M5Stick-Captive-Por
 3. Compile and upload the code to your M5StickC Plus 2.
 4. After uploading, the device will create a WiFi access point.
 5. Connect to the WiFi created by the device to view the login page.
+6. To access the log portal please access: **172.0.0.1/creds (you must be connected to the WiFi Network to view the logs)**
 
 ## Configuration
 
